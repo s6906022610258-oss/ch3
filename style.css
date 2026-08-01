@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:silver;
+}
+
+.header{
+    background:black;
+    color:yellow;
+    padding:20px;
+    text-align:center;
+}
+
+.topmenu{
+    background:#333;
+}
+
+.topmenu ul{
+    list-style:none;
+    overflow:hidden;
+}
+
+.topmenu ul li{
+    float:left;
+}
+
+.topmenu ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+}
+
+.topmenu ul li a:hover{
+    background:#555;
+}
+
+.container{
+    width:100%;
+}
+
+.sidebar{
+    width:20%;
+    float:left;
+    background:#eeeeee;
+    min-height:700px;
+    padding:15px;
+}
+
+.sidebar h3{
+    margin-bottom:15px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:10px;
+    background:white;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.content{
+    width:80%;
+    float:left;
+    padding:20px;
+}
+
+.category{
+    clear:both;
+    margin-bottom:40px;
+}
+
+.category h2{
+    margin-bottom:20px;
+}
+
+.card{
+    width:30%;
+    float:left;
+    background:white;
+    margin:1.5%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    text-align:center;
+    padding:15px;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.card p{
+    color:red;
+    font-size:20px;
+    margin:10px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2196F3;
+    color:white;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0b7dda;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+table th{
+    background:#2196F3;
+    color:white;
+}
+
+.footer{
+    clear:both;
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
